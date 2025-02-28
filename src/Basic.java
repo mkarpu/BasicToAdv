@@ -904,6 +904,13 @@ public class Basic {
         str.add("B");
         str.add("C");
 
+        List<Integer> list3 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+        System.out.println(list3);
+        System.out.println(list3.get(2));
+
+        List<String> list4 = new ArrayList<>(Arrays.asList("a","b","c","d","e","f"));
+        System.out.println(list4);
+
         for(String s : str){
             System.out.println(s);
         }
